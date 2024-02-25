@@ -1,0 +1,107 @@
+body{
+    background-color: steelblue;
+}
+h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 30;
+    width: 600;
+    border-radius: 25px;
+}
+nav{
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(117, 163, 248);
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 700px; 
+}
+.austin{
+    border-radius: 25px;
+    background: url(https://i.pinimg.com/736x/25/2e/b2/252eb2865cc73dd101fe6ae9b560862b.jpg);
+    background-position: left top;
+    width: 300px;
+    padding: 20px;
+    height: 500px;
+   
+    .weekday{
+        /* display horizontal */
+        justify-content: space-around;
+        display: flex;
+    }
+    .hourly{
+        text-align: center;
+    }
+    .cw{
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* justify content to space around */
+    }
+
+}
+.paris{
+    border-radius: 25px;
+    color: aliceblue;
+    background: url(https://images.unsplash.com/photo-1599806112354-67f8b5425a06?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGNsb3Vkc3xlbnwwfHwwfHx8MA%3D%3D);
+    background-position: left top;
+    width: 300px;
+    padding: 20px; 
+    height: 500px;
+    .weekday{
+        justify-content: space-around;
+        display: flex;
+    }
+    .hourly{
+        text-align: center;
+    }
+    .cw{
+        text-align: center;
+    }
+    /* weekday + hourly class */
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 12px;
+    }
+}
+.nyc{
+    border-radius: 25px;
+    color: antiquewhite;
+    background: url(https://i.pinimg.com/564x/08/a7/fd/08a7fda8a4ce3ec83a473c218efa04f3.jpg);
+    background-position: left top;
+    width: 300px;
+    padding: 20px; 
+    height: 500px;
+    .weekday{
+        justify-content: space-around;
+        display: flex;
+    }
+    .hourly{
+        text-align: center;
+    }
+    .cw{
+        text-align: center;
+    }
+    /* weekday and hourly class */
+    /* LEFT OFF 02/24 */
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 12px;
+    }
+}
